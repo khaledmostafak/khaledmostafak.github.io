@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KH</title>
+    <link rel="stylesheet" href="css/styledetails.css">
+</head>
+<body>
+<header>
+<a href="#" class="logo">KH<span>.</span></a>
+<nav class="navbar">
+    <a href="file:///C:/Users/ahmed%20mostafa/OneDrive/Desktop/khaled(IT)/index.html">home</a>
+    <a href="file:///C:/Users/ahmed%20mostafa/OneDrive/Desktop/khaled(IT)/index.html#products">men</a>
+    <a href="#">women</a>
+    <a href="#">kids</a>
+    <a href="#">account</a>
+</nav>
+</header>
+<div class="small-container details">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/gallery-1.jpg" id="ProductImg">
+        </div>     
+        <div class="col-2">
+            <p> Home / T-shirts </p>
+            <h2><b> Red Printed t-shirts<br> by KH</b></h2>
+            <h3>EGP 120.00 <span>EGP 150.00</span> </h3>
+            <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add To Cart</a>
+            <h4>Products Details</h4>
+            <br>
+            <p>Give your summer wardrobe a style upgrade with the KH </p>
+        </div>
+    </div>
+</div>
+<br>
+<div class="small-img-row">
+    <div class="small-img-col">
+        <img src="images/gallery-1.jpg" class="small-img"> 
+    </div>
+    <div class="small-img-col">
+        <img src="images/gallery-2.jpg" class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="images/gallery-3.jpg" class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="images/gallery-4.jpg" class="small-img">
+    </div>
+    <p>Men’s Active T-shirts. Team it with a pair of shorts for your <br><br>morning workout or night an evening out with the guys.<br><br>Made of pure cotton and non-blended with transfer.</p>    
+</div>
+<section class="products" id="products">
+    <h1 class="heading">Related <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="discount"> -20% </span>
+            <div class="image">
+                <img src="images/1.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>             
+                </div>
+            </div>    
+            <div class="content">
+                <h3>AKAI Printed Cotton T-Shirt First Rate For Men - Mango Yellow</h3>
+                <div class="price">120.00 EGP<span>150.00 EGP</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount"> Free Shipping*</span>
+            <div class="image">
+                <img src="images/2.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart </a>
+                </div> 
+            </div>
+            <div class="content">
+                <h3>Ho Holland Men's Polo Shirt - Multi Color</h3>
+                <div class="price">199.00 EGP<span>385.00 EGP</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount"> -10% </span>
+            <div class="image">
+                <img src="images/fila-vintage-eagle-t-shirt-navy-p13502-76155_image.jpg" >
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart </a>
+                </div>           
+            </div>
+            <div class="content">
+                <h3>T-SHIRTS</h3>
+                <div class="price">12.99 EGP<span>15.99 EGP</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount"> -10% </span>
+            <div class="image">
+                <img src="images/fila-vintage-eagle-t-shirt-navy-p13502-76155_image.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart </a>
+                </div>    
+            </div>                
+            <div class="content">
+                <h3>T-SHIRTS</h3>
+                <div class="price">12.99 EGP<span>15.99 EGP</span></div>
+            </div>
+        </div>
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+    SmallImg[0].onclick = function ()
+    {
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function ()
+    {
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function ()
+    {
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function ()
+    {
+        ProductImg.src = SmallImg[3].src;
+    }
+</script>    
+</body>
+</html>
